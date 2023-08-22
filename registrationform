@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/forms.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Registration form</title>
+<link rel="stylesheet" href="./Registration form_files/form.css"></head>
+<body>
+           <h1>Student Registration form</h1>
+
+           <form> 
+           
+           <label>First Name : <input type="text" placeholder="Enter your name" fdprocessedid="elb99s"></label><br><br>
+           <label>Last Name : <input type="text" placeholder="Enter your Lastname" fdprocessedid="ej6lnc"></label><br><br>
+           <label>Father Name : <input type="text" placeholder="Enter your Father name" fdprocessedid="g2wryb"></label><br><br>
+           <label>
+                     Gender : <input type="radio" name="gender"> Male
+                      <input type="radio" name="gender"> Female
+                      <input type="radio" name="gender"> Others
+           </label> <br> <br>
+            <label>Enter Your Date of Birth : <input type="date" placeholder="Enter your DOB"></label> <br> <br>
+           <label> Enter Your Email Address : <input type="email" placeholder="Enter Your email Address" fdprocessedid="54lz5b"></label><br> <br>
+           <label> Enter Your Password: <input type="password" placeholder="Enter Your Password min 8 characters" fdprocessedid="eo8rsi"></label><br> <br>
+           <label> Enter Your Confirm Password: <input type="password" placeholder="Enter Your Confirm Password" fdprocessedid="9eb1i6"></label><br> <br>
+           <label> Enter Your Mobile Number: <input type="number" placeholder="Enter Your mobile number" fdprocessedid="d4lkb1"></label><br> <br>
+           <label> Enter Your Address : <textarea name="Address" cols="30" rows="10" placeholder="Enter Your Address " style="width: 220px; height: 24px;"></textarea></label><br> <br>
+            State :  <select fdprocessedid="m8wd9l"> 
+            <option>---select your State---</option>
+            <option>Andhra Pradesh</option>  
+            <option>Asam</option>
+            <option>Uthar Pradesh</option>
+            <option>Karnataka</option>
+            <option>Telangana</option>
+            <option>Thamil Nadu</option>
+           </select> <br><br>
+           <label>Enter Your Pin Code : <input type="number" placeholder="Enter Your PIN Code" fdprocessedid="ih810k"></label><br> <br>
+           <label> Hobbies : 
+            <input type="checkbox">Music
+            <input type="checkbox">Cricket
+            <input type="checkbox">Chess
+            <input type="checkbox">Tennis
+            <input type="checkbox">Reading Books
+           </label> <br> <br>
+           <label>Upload Your files : <input type="file"></label> <br><br>
+           <label><input type="button" value="Reset" fdprocessedid="cu11gd"></label> 
+           <label><input type="button" value="Submit" fdprocessedid="sosjfa"></label>
+           </form>
+          </body></html>
